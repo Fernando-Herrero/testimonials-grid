@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* A partir de aquí introduce tus estilos */
+:root {
+    --purple-color: #7945cb;
+	--gray-color: #2f3746;
+	--white-color: #e7edf4;
+    --black-color: #0a0a0a;
+    --text-gray-color: #8b8997;
+    --background-color: #d2d2d2;
+
+	--container-width: 90%;
+}
+
+body {
+	background-color: var(--background-color);
+}
+
+.container {
+	width: var(--container-width);
+	margin: 0 auto;
+}
