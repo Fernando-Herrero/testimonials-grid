@@ -70,20 +70,20 @@ body {
     "patrick"
     "kira";
 
-    gap: 1em;
-    border-radius: 5px;
+    gap: 1.5em;
+    border-radius: 0.5em;
     margin-top: 2em;
     margin-top: 2em;
 }
 
 .card {
-    padding: 1em;
+    padding: 1.8em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     gap: 1em;
-    border-radius: 5px;
+    border-radius: 0.5em;
 }
 
 .daniel {
@@ -113,10 +113,11 @@ body {
 
 img {
     border-radius: 50%;
+    width: 2.5em;
 }
 
 .daniel img {
-    border: 4px solid rgb(206, 55, 206);
+    border: 2px solid rgb(206, 55, 206);
 }
 
 .patrick img {
@@ -136,33 +137,33 @@ img {
 }
 
 .name-style-white {
-    font-size: 1em;
+    font-size: 0.8em;
     color: var(--white-color);
 }
 
 .black-style-name {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .verified {
-    font-size: 0.8em;
+    font-size: 0.6em;
     color: var(--text-gray-color);
 }
 
 .white-title-style {
-    font-size: 1.5em;
-    line-height: 1.3;
+    font-size: 1em;
+    line-height: 1.5;
     color: var(--white-color);
 }
 
 .black-title-style {
-    font-size: 1.5em;
-    line-height: 1.3;
+    font-size: 1em;
+    line-height: 1.5;
     color: var(--black-color);
 }
 
 .gray-parragraph {
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1.5;
     color: var(--text-gray-color);
 }

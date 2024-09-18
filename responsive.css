@@ -10,21 +10,18 @@
 @media (min-width: 1024px) {
     :root {
         --bg-color: beige;
-        --container-width: 75%;
     }
 
     .full-card {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
         "daniel daniel jonathan kira"
         "jeanette patrick patrick kira";
-    
+    }
+
+    .card {
         gap: 1em;
-        border-radius: 5px;
-        margin-top: 2em;
-        margin-top: 2em;
     }
 }
 
@@ -32,6 +29,5 @@
 @media (min-width: 1440px) {
 	:root {
         --bg-color: aquamarine;
-        --container-width: 75%;
     }
 }
