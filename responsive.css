@@ -12,6 +12,20 @@
         --bg-color: beige;
         --container-width: 75%;
     }
+
+    .full-card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+    
+        gap: 1em;
+        border-radius: 5px;
+        margin-top: 2em;
+        margin-top: 2em;
+    }
 }
 
 /* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
