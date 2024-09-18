@@ -58,3 +58,79 @@ body {
 	width: var(--container-width);
 	margin: 0 auto;
 }
+
+.full-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas: 
+    "daniel"
+    "jonathan"
+    "jeanette"
+    "patrick"
+    "kira";
+
+    gap: 1em;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-top: 2em;
+}
+
+.card {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1em;
+    border-radius: 5px;
+}
+
+.daniel {
+    grid-area: daniel;
+    background-color: var(--purple-color);
+}
+
+.jonathan {
+    grid-area: jonathan;
+    background-color: var(--gray-color);
+}
+
+.jeanette {
+    grid-area: jeanette;
+    background-color: var(--white-color);
+}
+
+.patrick {
+    grid-area: patrick;
+    background-color: var(--black-color);
+}
+
+.kira {
+    grid-area: patrick;
+    background-color: var(--white-color);
+}
+
+img {
+    border-radius: 50%;
+}
+
+.daniel img {
+    border: 4px solid rgb(206, 55, 206);
+}
+
+.patrick img {
+    border: 2px solid rgb(206, 55, 206);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
